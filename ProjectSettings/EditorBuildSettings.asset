@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Cenas/trabalho fera algelin.unity
+    guid: 447b066e7d811dd4d8500b728018d2a8
+  - enabled: 1
+    path: Assets/P_Menu.unity
+    guid: 11d0d072c0aa4364eb762c16416bc5bf
+  - enabled: 1
+    path: Assets/1_stage.unity
+    guid: e7dfc71b2b2292c41ace93c28fd76a98
