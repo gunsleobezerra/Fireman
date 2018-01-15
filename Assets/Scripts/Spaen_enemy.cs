@@ -59,7 +59,7 @@ public class Spaen_enemy : MonoBehaviour {
 
 			if (Thing != null) {
 				object_old = Instantiate (Thing, transform.position, transform.rotation) as GameObject;
-			} else {
+			} else if(object_old!=null) {
 
 				object_old = Instantiate (object_old, transform.position, transform.rotation) as GameObject;
 
@@ -72,7 +72,7 @@ public class Spaen_enemy : MonoBehaviour {
 
 			if (Thing2 != null) {
 				object_old = Instantiate (Thing2, transform.position, transform.rotation) as GameObject;
-			} else {
+			} else if(object_old!=null) {
 
 				object_old = Instantiate (object_old, transform.position, transform.rotation) as GameObject;
 
@@ -85,7 +85,7 @@ public class Spaen_enemy : MonoBehaviour {
 
 			if (Thing3 != null) {
 				object_old = Instantiate (Thing3, transform.position, transform.rotation) as GameObject;
-			} else {
+			} else if(object_old!=null){
 
 				object_old = Instantiate (object_old, transform.position, transform.rotation) as GameObject;
 
@@ -98,7 +98,7 @@ public class Spaen_enemy : MonoBehaviour {
 
 			if (Thing4 != null) {
 				object_old = Instantiate (Thing4, transform.position, transform.rotation) as GameObject;
-			} else {
+			} else if(object_old!=null){
 
 				object_old = Instantiate (object_old, transform.position, transform.rotation) as GameObject;
 

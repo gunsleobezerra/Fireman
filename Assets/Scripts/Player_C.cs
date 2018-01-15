@@ -17,6 +17,8 @@ public class Player_C : MonoBehaviour {
 	public int flag;
 	GameObject bullet_clone;
 	public GameObject wasborn;
+	public float direct;
+	public int fired,jumpi;
 
 	//UI
 	public Text game_over;
@@ -36,7 +38,8 @@ public class Player_C : MonoBehaviour {
 	
 
 	void Update () {
-		float axis_X = Input.GetAxis ("Horizontal");
+
+		 float axis_X = direct;
 
 		//Ray rast = new Ray (this.gameObject.transform.position, Vector3.down);
 		Vector2 position = this.gameObject.transform.position;
@@ -57,7 +60,8 @@ public class Player_C : MonoBehaviour {
 
 		if (rast1.distance>=0 && rast1.distance<=1) {
 			player_A.SetBool ("Grounded", true);
-			if (Input.GetKeyDown (KeyCode.Space)) {
+			if (Input.GetKeyDown (KeyCode.Space) || jumpi==1) {
+				jumpi = 0;
 				player_F.AddForce (Vector2.up * forcejump);
 				flag += 1;
 			}
@@ -74,9 +78,9 @@ public class Player_C : MonoBehaviour {
 
 
 		//Atirar
-		if (Input.GetKeyDown(KeyCode.Z)) {
+		if (Input.GetKeyDown(KeyCode.Z) || fired==1) {
 			player_A.SetBool ("isFire", true);
-
+			fired = 0;
 			bullet_clone = Instantiate (bullet, this.gameObject.transform.position, Quaternion.identity) as GameObject;
 
 			if (player_S.flipX == true) {
@@ -145,5 +149,6 @@ public class Player_C : MonoBehaviour {
 		//GAME OVER
 
 	}
+
 
 }
