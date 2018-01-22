@@ -1,10 +1,13 @@
-To Open the game and edit , open the Folder Fireman on UNITY...
+**Fireman Android Version 1.0**
 
-**CONTROLS:**
-
-*Moviments* : ARROWS 
-
-*Jump* : SPACE 
+A 2D game Developed on unity about a little man and fire balls...
 
 
-*Fire* : Z 
+![Game Layout](https://github.com/gunsleobezerra/Fireman/tree/apk/GitI/game.png)
+
+**Scripts**
+
+|NAME|FUNCTIONS|
+|----|---------|
+|[Player_C](https://github.com/gunsleobezerra/Fireman/tree/apk/Assets/Scripts/Player_C.cs)|Player Controller
+|[Spaen_enemy]((https://github.com/gunsleobezerra/Fireman/tree/apk/Assets/Scripts/Spaen_enemy.cs))|Spawn 4 Enemys Prefabs per time definition.|
