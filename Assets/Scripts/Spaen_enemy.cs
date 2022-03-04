@@ -27,7 +27,8 @@ public class Spaen_enemy : MonoBehaviour {
 			time_count = 0;
 		}
 		//Debug.Log (time_count.ToString ());
-		Debug.Log(time_seconds.ToString());
+		//Debug.Log(time_seconds.ToString());
+		
 	}
 
 

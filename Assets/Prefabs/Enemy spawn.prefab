@@ -1,22 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1525235554055870}
-  m_IsPrefabParent: 1
 --- !u!1 &1525235554055870
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4236417028165378}
   - component: {fileID: 114121337343691020}
@@ -29,30 +19,33 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4236417028165378
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525235554055870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.18, y: 0.84, z: 0}
   m_LocalScale: {x: 1.3952239, y: 1.3952235, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114121337343691020
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525235554055870}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9720808faa6ebd04484a543fef815a1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Thing: {fileID: 1725954233234088, guid: 4f0bb64f02687e14b96bb3aa02dd7327, type: 2}
-  Thing2: {fileID: 1566911191189462, guid: 53e2317b4c905e045ab764acbca6f7c2, type: 2}
+  Thing: {fileID: 1725954233234088, guid: 4f0bb64f02687e14b96bb3aa02dd7327, type: 3}
+  Thing2: {fileID: 1566911191189462, guid: 53e2317b4c905e045ab764acbca6f7c2, type: 3}
   Thing3: {fileID: 0}
   Thing4: {fileID: 0}
-  time_seconds: 3
+  time_seconds: 500

@@ -16,6 +16,7 @@ TagManager:
   - point
   - p_enemy
   - end
+  - dead_line
   layers:
   - Default
   - TransparentFX
